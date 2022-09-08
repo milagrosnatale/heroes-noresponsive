@@ -1,0 +1,27 @@
+/* Estilos Globales */
+
+
+/* Estilos Header */
+.descuentos {
+    display: flex;
+    background-color: #1CD1B0;
+    height: 38px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.heroes {
+     display: flex;
+     padding: 0 20px;
+     background-color: #00669F;
+     height: 101px;
+     align-items: center;
+     font-size: 40px;
+}
+
+/* Estilos cards personajes */
+
+.card-personajes {
+    display: flex;
+    width: 300px;
+}
