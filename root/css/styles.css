@@ -1,5 +1,8 @@
 /* Estilos Globales */
-
+.flex {
+    display: flex;
+    justify-content: center;
+}
 
 /* Estilos Header */
 .descuentos {
@@ -21,7 +24,22 @@
 
 /* Estilos cards personajes */
 
-.card-personajes {
-    display: flex;
+article {
+    height: 450px;
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo-batman {
+    display: flex;
+    position: top;
+}
+
+.foto-batman {
+    border-radius: 50%;
+    position: relative;
+    bottom:60px;
 }
